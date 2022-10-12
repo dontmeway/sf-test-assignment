@@ -1,0 +1,16 @@
+.label {
+  @apply absolute top-4 left-4 right-0 block leading-none w-full text-base transition-all;
+}
+
+.base {
+  @apply placeholder:text-transparent transition-transform;
+}
+
+.base:focus + .label,
+.base:not(:placeholder-shown) + .label {
+  @apply translate-y-[-12px] text-xs;
+}
+
+.base[disabled] + .label {
+  @apply select-none opacity-60;
+}

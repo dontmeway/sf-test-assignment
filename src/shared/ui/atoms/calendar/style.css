@@ -1,0 +1,108 @@
+.customTile {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customTile abbr {
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2e2e2e;
+  background-color: #fbf6f6;
+}
+
+.customTile:disabled {
+  background: initial;
+  cursor: not-allowed;
+}
+
+.customTile:disabled abbr {
+  color: #cdcbcb;
+}
+.customTile:hover {
+  background: initial !important;
+}
+.customTile:hover abbr {
+  background: #ededed;
+}
+
+.calendar {
+  border: none;
+  width: 100%;
+  font-family: 'Cera Pro', Helvetica, Arial, sans-serif;
+}
+
+.react-calendar__navigation__label__labelText {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: medium;
+  line-height: 12px;
+  color: #c8166a;
+}
+
+.react-calendar__navigation {
+  height: 32px;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+.react-calendar__navigation__label {
+  border-radius: 4px;
+  margin: 0 4px !important;
+  height: 32px;
+}
+
+.react-calendar__navigation__arrow {
+  border-radius: 8px;
+  height: 32px !important;
+  width: 32px !important;
+  min-width: none;
+  color: #c8166a;
+  background-color: #fef7fe !important;
+}
+
+.react-calendar__tile--now {
+  font-weight: 700;
+}
+
+.react-calendar__tile--now:hover {
+  background-color: #e6e6e6 !important;
+}
+
+.react-calendar__tile--active abbr {
+  background-color: #c8166a !important;
+  color: white;
+}
+.react-calendar__navigation__next2-button,
+.react-calendar__navigation__prev2-button {
+  display: none;
+}
+.react-calendar__month-view__weekdays {
+  font-size: 14px;
+  line-height: 12px;
+  font-weight: 500;
+  color: #2e2e2e;
+  text-transform: capitalize;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none !important;
+}
+.react-calendar__tile--now:hover {
+  background: initial !important;
+}
+.react-calendar__tile--now {
+  background: initial;
+}
+
+.react-calendar__tile--active {
+  background: initial !important;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  opacity: 0.35;
+}

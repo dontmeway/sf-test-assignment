@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter/Inter-Light.ttf');
+  src: local('Inter Light'), local('Inter-Light'),
+    url('./Inter/Inter-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter/Inter-Regular.ttf');
+  src: local('Inter Regular'), local('Inter-Regular'),
+    url('./Inter/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter/Inter-Medium.ttf');
+  src: local('Inter Medium'), local('Inter-Medium'),
+    url('./Inter/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter/Inter-SemiBold.ttf');
+  src: local('Inter SemiBold'), local('Inter-SemiBold'),
+    url('./Inter/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter/Inter-Bold.ttf');
+  src: local('Inter Bold'), local('Inter-Bold'),
+    url('./Inter/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

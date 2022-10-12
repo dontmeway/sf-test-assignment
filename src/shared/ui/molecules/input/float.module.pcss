@@ -1,0 +1,16 @@
+.input-label {
+  @apply absolute top-5 left-6 right-0 block leading-none w-full text-base transition-all;
+}
+
+.input-base {
+  @apply placeholder:text-transparent transition-transform;
+}
+
+.input-base:focus + .input-label,
+.input-base:not(:placeholder-shown) + .input-label {
+  @apply translate-y-[-10px] text-xs;
+}
+
+.input-base[disabled] + .input-label {
+  @apply select-none opacity-60;
+}
